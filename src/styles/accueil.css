@@ -1,0 +1,61 @@
+.accueil-container {
+   
+    height: 200px;
+    position: relative;
+   
+  }
+  
+.accueil-vertical-center {
+    
+   margin-top: 100px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.my-button{
+  border: 2px solid #34D1BF;  
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 280px;
+  height: 55px;
+  padding-left:20px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: left; /* 0px 0px; */
+}
+
+.my-button .icon-1{
+  background: url(../assets/Arrow.svg) no-repeat;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  padding: 1px;
+  padding-right: 4px;
+}  
+
+.my-button .icon-2{
+  background: url(../assets/Group.svg) no-repeat;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  padding: 1px;
+}  
+
+
+
+.my-button .badge {
+  position: relative;
+  top: -50%;
+  right: -25%;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: #F2994A;
+  color: white;
+}
